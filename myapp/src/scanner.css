@@ -1,0 +1,188 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+    width: 1290px;
+    margin-top: 0px;
+    transform: translateY(-100px);
+    transform: translateX(-45px);
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f0a0a;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .github-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .scanner-section {
+    text-align: center;
+    flex: 1; 
+    padding: 50px 20px;
+  }
+  
+  .scanner-section h1 {
+    font-size: 24px;
+    color: #9b3f3f; 
+  }
+  
+  .scanner-section p {
+    color: #c0e6ba; 
+  }
+  
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    
+  }
+  
+  
+  .file-input {
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 60%;
+    height: 50px; 
+    color: #ccc;
+    font-size: 16px;
+  }
+  
+  
+  .video-preview {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 500px; 
+    border-radius: 10px;
+  }
+  
+  
+  .scan-button {
+    background: linear-gradient(to right, #21c1ed, #3c5fd8);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .scan-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
+  .result {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .result.fake {
+    color: red;
+  }
+  
+  .result.real {
+    color: green;
+  }
+  .logo{
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: purple;
+    font-style: italic;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    width: 1340px; 
+    transform: translateX(-40px);
+    position: relative;
+    bottom: 0;
+
+  }
+  
+  .footer-logo {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    font-size: 12px; 
+    color: #d0bbbb;
+    margin: 3px 0;
+    cursor: pointer;
+  }
+  
+  
+  .social-icons {
+    margin: 10px 0; 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons svg {
+    font-size: 16px; 
+    cursor: pointer;
+    color: white;
+  }
+  
+  .footer-bottom {
+    font-size: 10px; 
+    color: #aaa;
+    border-top: 1px solid #4c2828;
+    padding-top: 5px; 
+    margin-top: 5px;
+  }
+  
+  .footer-bottom-links span {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  

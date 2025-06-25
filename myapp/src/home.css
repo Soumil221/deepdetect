@@ -1,0 +1,147 @@
+.home-container {
+    text-align: center;
+
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* Adjusted padding for responsiveness */
+    background: #fce5fc;
+    border-bottom: 2px solid #ddd;
+    
+    
+    z-index: 1000;
+    height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .navbar h1 {
+    color: purple;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 150px;
+
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .nav-links a:hover {
+    background: black;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #a4cbcb;
+  }
+  
+  .hero-text {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .cta-button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background: #e85858;
+    transform: scale(1.05);
+  }
+  
+  .hero-image {
+    padding-bottom: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .image-preview {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-preview:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-section,
+  .help-section {
+    padding: 50px;
+    background: rgb(127, 193, 233);
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 10px;
+  }
+  
+  .about-section h2,
+  .help-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .about-section img,
+  .help-section img {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Fix for Smaller Screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links a {
+      width: 100%;
+      text-align: center;
+    }
+  }

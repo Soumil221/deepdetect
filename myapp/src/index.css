@@ -1,0 +1,28 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  width: 100%;
+  min-height: 100vh; 
+  background: linear-gradient(270deg, #0f1925, #37327a, #170e33);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s ease infinite;
+  overflow-x: hidden;
+}
+
+
+.main-container {
+  min-height: 100vh;
+
+  background: inherit; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
